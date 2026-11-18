@@ -1,16 +1,12 @@
-# TODO: Replicating Author (Year), "Title of the paper"
+# Replicating Hansen (2015), "Punishment and Deterrence: Evidence from Drunk Driving"
 
-> **Template note, delete before you submit.** This is the ECON 5200 replication template.
-> Replace every line that starts with `TODO:`. The grader clones this repository into an
-> empty directory, builds the environment from `requirements.txt` and runs the one command
-> below. The number this README claims must be the number that run produces.
 
 ## The paper and its headline claim
 
-- **Paper:** TODO: full citation (authors, year, title, journal, volume, pages).
-- **Identification strategy:** TODO: difference-in-differences / instrumental variables / regression discontinuity / matching.
-- **Headline claim:** TODO: one sentence, with the number and where it is in the paper (for example, Table 2, column 3).
-- **My replication:** TODO: my number beside theirs, and the gap in percent, as `python reproduce.py` prints it.
+- **Paper:** Hansen, Benjamin. 2015. "Punishment and Deterrence: Evidence from Drunk Driving." *American Economic Review* 105(4): 1581–1617.
+- **Identification strategy:** regression discontinuity.
+- **Headline claim:** Having a BAC just over 0.08 lowers the chance of a repeat drunk-driving stop within four years by about 2 percentage points.
+- **My replication:** -0.0222 vs the paper's -0.021, a gap of -5.5%, as `python reproduce.py` prints it.
 
 ## Reproduce the headline table
 
@@ -29,12 +25,12 @@ it downloads the data if `data/` does not have it, runs `notebooks/01_positionin
 table from `output/headline_table.csv`. Executed copies of the notebooks, with their
 outputs, go to `output/executed/`.
 
-- **Expected runtime:** TODO: minutes on your machine, measured from a clean clone (the empty template runs in under a minute).
+- **Expected runtime:** TODO: about 10 seconds to run in the environment.
 
 ## Data: source and licence
 
-- **Source:** TODO: the URL in `download_data.py` for your paper, and who produced the original data.
-- **Included or downloaded:** TODO: say which, and why.
+- **Source:** https://raw.githubusercontent.com/scunning1975/mixtape/master/hansen_dwi.dta, from Scott Cunningham's repository. 
+- **Included or downloaded:** Downloaded. `download_data.py` fetches the file on the first run.
 
 The template downloads by default: `.gitignore` excludes `data/*.dta`, and
 `download_data.py` fetches the files on the first run. Two facts to check before you
