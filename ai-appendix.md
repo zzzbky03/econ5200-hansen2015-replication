@@ -4,8 +4,8 @@
 
 Sections 1 and 2 were completed without AI.
 
-Name: TODO
-Date: TODO
+Name: Kaiyuan Bai
+Date: 11.9- 11.10
 
 Using AI in Sections 1 or 2 is an integrity violation. Do not edit the statement above; if it
 is not true, talk to the instructor before you submit.
