@@ -30,7 +30,7 @@ outputs, go to `output/executed/`.
 ## Data: source and licence
 
 - **Source:** https://raw.githubusercontent.com/scunning1975/mixtape/master/hansen_dwi.dta, from Scott Cunningham's repository. 
-- **Included or downloaded:** Downloaded. `download_data.py` fetches the file on the first run.
+- **Included or downloaded:** Downloaded. `download_data.py` fetches the file on the first run which it stays small.
 
 The template downloads by default: `.gitignore` excludes `data/*.dta`, and
 `download_data.py` fetches the files on the first run. Two facts to check before you
@@ -60,7 +60,6 @@ the files with the licence notice, and say so above.
 | `AUDIT.md` | How to run the peer audit you file on a classmate's repository |
 | `requirements.txt` | Pinned package versions |
 
-TODO: add a row for every file you add.
 
 ## Use of AI
 
