@@ -5,7 +5,7 @@
 
 - **Paper:** Hansen, Benjamin. 2015. "Punishment and Deterrence: Evidence from Drunk Driving." *American Economic Review* 105(4): 1581–1617.
 - **Identification strategy:** regression discontinuity.
-- **Headline claim:** Having a BAC just over 0.08 lowers the chance of a repeat drunk-driving stop within four years by about 2 percentage points.
+- **Headline claim:** Having a BAC just over 0.08 lowers the chance of a repeat drunk-driving stop within four years by about 2 percentage points.(Table 3, Panel A)
 - **My replication:** -0.0222 vs the paper's -0.021, a gap of -5.5%, as `python reproduce.py` prints it.
 
 ## Reproduce the headline table
