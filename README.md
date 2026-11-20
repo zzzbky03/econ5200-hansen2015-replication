@@ -25,7 +25,7 @@ it downloads the data if `data/` does not have it, runs `notebooks/01_positionin
 table from `output/headline_table.csv`. Executed copies of the notebooks, with their
 outputs, go to `output/executed/`.
 
-- **Expected runtime:** TODO: about 10 seconds to run in the environment.
+- **Expected runtime:** : about 30 seconds to run in the environment.
 
 ## Data: source and licence
 
@@ -65,5 +65,5 @@ the files with the licence notice, and say so above.
 
 Sections 1 and 2 were completed without AI.
 
-TODO: list the sections where you used AI (from 3, 4, 5 and 6), for what, and point to the
-entries in [`ai-appendix.md`](ai-appendix.md). If you used none, say so.
+I used AI as a co-pilot in section3,4,6 which under P.R.I.M.E.,see details in [`ai-appendix.md`](ai-appendix.md).
+
