@@ -30,8 +30,13 @@ Note anything that fails to install, and the Python version you used (`python --
 Usually `python reproduce.py`. Time it. Then compare:
 
 - Does it finish? If not, where does it stop, and with what error?
+- I tested the Hansen (2015) replication repository in Google Colab using the reproduce.py script. Both notebooks executed successfully without errors. The first notebook finished in 5 seconds, and the second finished in 30 seconds, for a total execution time of 35 seconds.
+- 
 - Is the headline number it prints the number in their README and their report?
+- The replication estimate was -0.022163, which matches the -0.0222 reported in the replication report after rounding. The original paper's estimate was -0.021, giving a relative difference of approximately 5.54%.
+- 
 - Does it need a file that is not in the repository and not downloaded by their code?
+-  I did not encounter any missing-file errors. The replication report states that download_data.py automatically downloads the dataset.
 
 ## 4. File one GitHub issue, about 300 words
 
